@@ -29,7 +29,7 @@ struct Colores
     
     
     func RegresaColorAleatorio()->UIColor{
-    let posicion=Int(arc4random()) % colores.count
+    let posicion=Int(arc4random()%UInt32(colores.count))
     return colores[posicion]
 
     }
