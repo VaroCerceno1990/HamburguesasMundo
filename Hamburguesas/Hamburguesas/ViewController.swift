@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         let colorAleatorio=colores.RegresaColorAleatorio()
         etiquetaPais.text=pais.obtenPais()
         etiquetaHamburguesa.text=hamburguesa.obtenHamburguesas()
-        view.tintColor=colorAleatorio
         view.backgroundColor=colorAleatorio
     }
     
